@@ -10,7 +10,7 @@ It helps small businesses quickly understand their sales using **auto-detected c
 
 1. [What is SmartDash?](#-what-is-smartdash)
 2. [Key Features](#-key-features)
-3. [Demo Screens (Placeholders)](#-demo-screens-placeholders)
+3. [Demo Screens](#-demo-screens)
 4. [Requirements](#-requirements)
 5. [Getting Started (Local)](#-getting-started-local)
 6. [Dataset Format & Column Detection](#-dataset-format--column-detection)
@@ -50,11 +50,11 @@ It helps small businesses quickly understand their sales using **auto-detected c
 
 ---
 
-## 🖼 Demo Screens (Placeholders)
+## 🖼 Demo Screens
 
-| Dashboard (Light Blue) | PDF Export (Styled) |
+| Dashboard Overview | Dashboard with Data |
 |---|---|
-| `images/dashboard.png` | `images/pdf.png` |
+| ![Dashboard Image 1](Images/Dashboard_image1.jpg) | ![Dashboard Image 2](Images/Dashboard_image2.jpg) |
 
 ---
 
