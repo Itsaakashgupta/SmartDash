@@ -11,15 +11,16 @@ It helps small businesses quickly understand their sales using **auto-detected c
 1. [What is SmartDash?](#-what-is-smartdash)
 2. [Key Features](#-key-features)
 3. [Demo Screens](#-demo-screens)
-4. [Requirements](#-requirements)
-5. [Getting Started (Local)](#-getting-started-local)
-6. [Dataset Format & Column Detection](#-dataset-format--column-detection)
-7. [How to Use the Dashboard](#-how-to-use-the-dashboard)
-8. [Insights Explained](#-insights-explained)
-9. [Exporting Data & Reports](#-exporting-data--reports)
-10. [Troubleshooting](#-troubleshooting)
-11. [License](#-license)
-12. [Author](#-author)
+4. [Live Demo](#-live-demo)
+5. [Requirements](#-requirements)
+6. [Getting Started (Local)](#-getting-started-local)
+7. [Dataset Format & Column Detection](#-dataset-format--column-detection)
+8. [How to Use the Dashboard](#-how-to-use-the-dashboard)
+9. [Insights Explained](#-insights-explained)
+10. [Exporting Data & Reports](#-exporting-data--reports)
+11. [Troubleshooting](#-troubleshooting)
+12. [License](#-license)
+13. [Author](#-author)
 
 ---
 
@@ -51,6 +52,19 @@ It helps small businesses quickly understand their sales using **auto-detected c
 | Dashboard Overview | Dashboard with Data |
 |---|---|
 | ![Dashboard Image 1](Images/Dashboard_image1.jpg) | ![Dashboard Image 2](Images/Dashboard_image2.jpg) |
+
+---
+
+## 🚀 Live Demo
+
+**Try SmartDash without installing anything!** Choose your preferred platform:
+
+| Platform | Link | Status |
+|----------|------|--------|
+| 🤗 **Hugging Face Spaces** | [**Launch App →**](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME) | ✅ Free, No signup required |
+| ☁️ **Streamlit Community Cloud** | [**Launch App →**](https://your-streamlit-app-url.streamlit.app) | ✅ Fast loading, GitHub integrated |
+
+> **🎯 Quick Start:** Upload your sales CSV, explore insights, and download reports—all in your browser!
 
 ---
 
