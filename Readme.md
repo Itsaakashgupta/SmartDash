@@ -17,13 +17,9 @@ It helps small businesses quickly understand their sales using **auto-detected c
 7. [How to Use the Dashboard](#-how-to-use-the-dashboard)
 8. [Insights Explained](#-insights-explained)
 9. [Exporting Data & Reports](#-exporting-data--reports)
-10. [Customization & Theming](#-customization--theming)
-11. [Deployment (Streamlit Cloud & Hugging Face)](#-deployment-streamlit-cloud--hugging-face)
-12. [Troubleshooting](#-troubleshooting)
-13. [Roadmap](#-roadmap)
-14. [Contributing](#-contributing)
-15. [License](#-license)
-16. [Author](#-author)
+10. [Troubleshooting](#-troubleshooting)
+11. [License](#-license)
+12. [Author](#-author)
 
 ---
 
@@ -130,7 +126,7 @@ SmartDash expects a **CSV** with typical sales columns. It automatically tries t
 If **Sales Amount** is missing, SmartDash computes **Revenue = Quantity × Unit Price** (if both exist).  
 If auto-detection fails, the **always-visible selectors** let you pick the right columns.
 
-> **Tip:** Provide a `sample_data/sales_sample.csv` for easy demos. Keep columns clean and consistent.
+> **Tip:** Use a `data/sales_sample.csv` for easy demos.
 
 ---
 
@@ -164,34 +160,7 @@ SmartDash shows **Quick Insights** by default
 - **PDF Export**: Branded, light-blue theme with sections:
   - Header with logo + app title
 
-> The PDF uses **ReportLab**. Charts are rendered to images and embedded into the PDF.
-
----
-
-## 🎨 Customization & Theming
-
-- **Colors**: Light blue background + white cards (set via inline CSS in the app).
-- **Branding**: Replace `assets/logo.png` and app title to match your identity.
-- **Footer**: Add your name + links (LinkedIn, GitHub, Portfolio).  
-  You can make it always visible even without an uploaded file.
-
----
-
-## ☁️ Deployment (Streamlit Cloud & Hugging Face)
-
-### Option A — Streamlit Community Cloud (easiest)
-1. Push your project to **GitHub** (must include `app.py` + `requirements.txt`).
-2. Go to **streamlit.io/cloud** and sign in with GitHub.
-3. Click **New app** → choose your repo/branch → deploy.
-4. Share the live URL (add it back into this README).
-
-### Option B — Hugging Face Spaces
-1. Create a Space → **Streamlit** template.
-2. Connect your GitHub repo or upload files.
-3. Set **`app_file`** to `app.py` and include `requirements.txt`.
-4. Get your public Space URL and share it.
-
-> For custom domains and more control, consider **Render** or **Railway**.
+> The PDF uses **ReportLab**.
 
 ---
 
@@ -212,25 +181,6 @@ SmartDash shows **Quick Insights** by default
 - **Date not parsing?**  
   The app tries multiple formats and uses `errors="coerce"`. You can pre-clean dates in your CSV if needed.
 
----
-
-## 🗺 Roadmap
-
-- Forecast next month’s sales (baseline model)
-- Profitability by product/region heatmaps
-- User accounts + private workspaces
-- More export formats (Excel, PNG snapshots)
-- Multi-language support
-
----
-
-## 🤝 Contributing
-
-Pull requests welcome!  
-- Fork the repo
-- Create a feature branch
-- Commit changes with clear messages
-- Open a PR describing your change and screenshots if UI-related
 
 ---
 
