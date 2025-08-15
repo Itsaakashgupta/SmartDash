@@ -62,7 +62,7 @@ It helps small businesses quickly understand their sales using **auto-detected c
 | Platform | Link | Status |
 |----------|------|--------|
 | 🤗 **Hugging Face Spaces** | [**Launch App →**](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME) | ✅ Free, No signup required |
-| ☁️ **Streamlit Community Cloud** | [**Launch App →**](https://your-streamlit-app-url.streamlit.app) | ✅ Fast loading, GitHub integrated |
+| ☁️ **Streamlit Community Cloud** | [**Launch App →**](https://smartdash-analytics.streamlit.app/) | ✅ Fast loading, GitHub integrated |
 
 > **🎯 Quick Start:** Upload your sales CSV, explore insights, and download reports—all in your browser!
 
