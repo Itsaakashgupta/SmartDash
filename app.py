@@ -11,10 +11,59 @@ import datetime
 
 # ---------- Page Config ----------
 st.set_page_config(
-    page_title="SmartDash — Small Biz Dashboard",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+# ---------- Theme Toggle in Header ----------
+# ---------- Theme Toggle in Header ----------
+if "theme" not in st.session_state:
+    st.session_state.theme = "light"
+
+# Header with title + toggle button
+col1, col2 = st.columns([9,1])  # 9:1 ratio pushes toggle to right
+with col1:
+    st.markdown("<h1>📊 SmartDash — Small Biz Dashboard</h1>", unsafe_allow_html=True)
+with col2:
+    if st.button("🌗 Theme"):
+        st.session_state.theme = "dark" if st.session_state.theme == "light" else "light"
+
+# Apply styles
+if st.session_state.theme == "light":
+    st.markdown("""
+    <style>
+    .stApp {
+        background: #ffffff;
+        color: #000000 !important;
+        font-weight: bold;
+    }
+    .card {
+        background: #ffffff;
+        color: #000000;
+    }
+    .footer {
+        background: #f0f0f0;
+        color: #000000;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+else:  # dark mode
+    st.markdown("""
+    <style>
+    .stApp {
+        background: #000000;
+        color: #ffffff !important;
+    }
+    .card {
+        background: #1c1c1c;
+        color: #ffffff;
+    }
+    .footer {
+        background: #111111;
+        color: #ffffff;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # ---------- Modern CSS ----------
 st.markdown("""
@@ -47,7 +96,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 SmartDash — Small Biz Dashboard")
 st.write("A modern, simple, and mobile-friendly dashboard for small business sales analysis.")
 
 # ---------- File Upload ----------
