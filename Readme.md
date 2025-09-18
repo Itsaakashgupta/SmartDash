@@ -210,4 +210,4 @@ See the [LICENSE](LICENSE) file for full text.
 Built by **Akash Gupta**  
 - LinkedIn: https://www.linkedin.com/in/itsaakash-gupta  
 - GitHub:   https://github.com/itsaakash-gupta  
-- Portfolio: (add link when ready)
+- Portfolio: https://itsaakashgupta.github.io/
